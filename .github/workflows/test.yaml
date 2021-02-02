@@ -10,7 +10,7 @@ on:
 jobs:
   hello-world:
       runs-on: ubuntu-latest
-          steps:
+      steps:
                 - name: hello-world
                         shell: bash
                                 run: echo "Hello World"
