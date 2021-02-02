@@ -1,14 +1,16 @@
-name: learn-github-actions
+name: Tests
+
 on:
-    push:
-        branches:
+  push:
+      branches:
             - dev
-            - master
-            - main
+                  - master
+                        - main
+
 jobs:
-    hello-world:
-        runs-on: ubuntu-latest
-        steps:
-         - name: hello-world
-          shell: bash
-          run: echo "Hello World"
+  hello-world:
+      runs-on: ubuntu-latest
+          steps:
+                - name: hello-world
+                        shell: bash
+                                run: echo "Hello World"
