@@ -3,9 +3,9 @@ name: Tests
 on:
   push:
       branches:
-            - dev
-            - master
-            - main
+        - dev
+        - master
+        - main
 
 jobs:
   hello-world:
