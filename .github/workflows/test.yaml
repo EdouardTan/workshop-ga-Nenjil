@@ -4,13 +4,13 @@ on:
   push:
       branches:
             - dev
-                  - master
-                        - main
+            - master
+            - main
 
 jobs:
   hello-world:
       runs-on: ubuntu-latest
       steps:
-                - name: hello-world
-                        shell: bash
-                                run: echo "Hello World"
+       - name: hello-world
+        shell: bash
+        run: echo "Hello World"
