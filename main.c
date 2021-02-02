@@ -25,7 +25,7 @@ int main(int ac, char **av)
     long int nb2 = get_number(av[3]);
 
     const size_t result = do_op(nb1, op, nb2);
-    printf("Result: %ld\n", result);
+    printf("aResult: %ld\n", result);
 
     exit(0);
 }
